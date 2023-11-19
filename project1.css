@@ -1,0 +1,45 @@
+                            ul {
+                                display: flex;
+                                list-style: none;
+                                border: 2px;
+                            }
+                            
+                            .container {
+                                display: inline;
+                                align-items: center;
+                            }
+                            
+                            body {
+                                border: 2px;
+                                background-color: rgb(119, 223, 241);
+                            }
+                            
+                            button {
+                                float: right;
+                                background-color: rgb(104, 165, 193);
+                            }
+                            
+                            link {
+                                list-style: none;
+                            }
+                            
+                            .card {
+                                border: 4px solid rgb(7, 9, 10);
+                                margin: 4px;
+                            }
+                            
+                            .d-flex {
+                                padding-left: 34px;
+                                float: left;
+                                align-items: flex-end;
+                            }
+                            
+                            .dropdown-menu {
+                                float: right;
+                                display: flex;
+                                align-items: right;
+                                display: left;
+                                margin: 4px;
+                                /* padding-left: 767px; */
+                                padding-right: 1vh
+                            }

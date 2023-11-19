@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <!-- <link rel="alternate" href="
+        link:css
+    " type="application/atom+xml" title="Atom">-->
+    <link rel="stylesheet" href="project1.css">
+    <script differ src="project1.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class=" container-fluid">
+            <h2 class="navbar-brand">
+                <h2>Notes app</h2>
+                </a>
+                <button class="navbar-toggler" id="addbtn" type="button " data-bs-toggle="collapse " data-bs-target="#navbarSupportedContent " aria-controls="navbarSupportedContent " aria-expanded="false " aria-label="Toggle navigation ">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+
+                <div class="collapse navbar-collapse " id="navbarSupportedContent ">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                        <li class="nav-item ">
+                            <a class="nav-link active " aria-current="page ">Home</a>
+                        </li>
+
+
+                        <ul class="dropdown-menu ">
+
+                            <li><button class="dropdown-item "> Add Card Notes</button></li>
+
+                            <div class="container "></div>
+                            <form class="d-flex " role="search ">
+                                <input class="form " type="search " placeholder="Search " aria-label="Search ">
+                                <button class="btn btn-outline-success " type="submit ">GO</button>
+                            </form>
+                        </ul>
+                </div>
+        </div>
+    </nav>
+    <div class="container ">
+        <h1> Welcome to Magic Notes</h1>
+    </div>
+    <div class="row container-fluid ">
+        <div class="card-body " id="addTxt">
+            <!-- <h5 notes class="card-title ">
+                Notes</h5> -->
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <button class="btn btn-primary ">Add note</button>
+        </div>
+    </div>
+    <h1>Your Notes</h1>
+    <div id="notes" class=" row container-fluid">
+        <div class="noteCard my-2 mx-2 card" style="width: 18rem;">
+
+            <div class="card-body">
+                <h5 class="card-title">Note</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button class="btn btn-primary">Delete</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

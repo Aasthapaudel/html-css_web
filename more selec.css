@@ -1,0 +1,11 @@
+div li p {
+    color: yellow;
+}
+
+div>p {
+    color: red;
+}
+
+div+p {
+    color: green;
+}

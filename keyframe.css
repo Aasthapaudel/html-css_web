@@ -1,0 +1,59 @@
+   .container {
+       display: flex;
+       background-color: yellow;
+   }
+   
+   .box {
+       background-color: green;
+       width: 200px;
+       height: 200px;
+       position: relative;
+       animation-name: Aastha;
+       animation-duration: 2s;
+       animation-iteration-count: 4;
+       animation-fill-mode: alternate;
+       animation-timing-function: ease-in-out;
+       animation-delay: 1s;
+   }
+   
+   @keyframes Aastha {
+       from {
+           width: 100px;
+       }
+       to {
+           width: 400px;
+       }
+   }
+   
+   body {
+       background-color: black;
+   }
+   
+   #box1 {
+       display: flex;
+       height: 200px;
+       width: 200px;
+       background-color: red;
+       justify-content: center;
+       align-items: center;
+       transition-duration: 1s;
+       transition-timing-function: ease-in;
+       transition-delay: 1s;
+   }
+   
+   #box1:hover {
+       background-color: white;
+       height: 200px;
+       width: 400px;
+       border-radius: 100px;
+       /* transform: rotate(360deg); */
+       /* transform: skew(40deg); */
+       /* transform: scale (2) */
+       /* transform: translateX(23px); */
+       /* /* transform: translateY(23px); */
+       transform: translate(123px, 123px);
+   }
+   
+   * {
+       margin: 0px;
+   }

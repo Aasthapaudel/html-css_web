@@ -1,0 +1,56 @@
+            *box {
+                box-sizing: 3px;
+            }
+            
+            .box {
+                font-family: 'system-ui', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                margin: 10px;
+                text-align: center;
+                border: 4px solid black;
+                background-color: grey;
+                box-sizing: border-box;
+                padding: 23px;
+                display: inline-block;
+                width: 30%;
+            }
+            
+            h3 {
+                font-family: 'ubuntu';
+            }
+            
+            .container {
+                margin: 10px;
+                width: 1000px;
+                height: 1000px;
+                border: 4px solid red;
+            }
+            
+            #box3 {
+                position: relative;
+                display: visible;
+                z-index=-45;
+                background-color: red;
+            }
+            
+            #box2 {
+                position: relative;
+                display: inline-block;
+                background-color: red;
+                z-index: 20;
+            }
+            
+            #box1 {
+                position: relative;
+                display: flex;
+                background-color: blue;
+                display: none;
+            }
+            
+            #box4 {
+                position: relative;
+                display: -webkit-flex;
+                background-color: green;
+                visibility: visible;
+                content-visibility: hidden;
+                z-index: 35;
+            }

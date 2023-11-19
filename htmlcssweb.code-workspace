@@ -1,0 +1,15 @@
+{
+    "folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "practise",
+			"path": "../../../web project/practise"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "htmlcssweb",
+        "git.ignoreLimitWarning": true
+    }
+}

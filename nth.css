@@ -1,0 +1,86 @@
+input {
+    display: block;
+    width: 300px;
+}
+
+.container {
+    padding: 2px 4px;
+    margin: 4px;
+}
+
+input[type='text'] {
+    padding: 3px;
+    border: 2px solid rgb(255, 0, 85);
+}
+
+a[target] {
+    font-size: 44px;
+    color: violet;
+}
+
+a[target='_self'] {
+    font-size: 14px;
+    color: rgb(186, 219, 24);
+}
+
+input[type='email'] {
+    color: green;
+    border: 2px solid blue;
+}
+
+li:nth-child(3n) {
+    color: cyan;
+}
+
+li:nth-child(2n+1) {
+    color: red;
+}
+
+.container {
+    display: flex;
+}
+
+.card-2 {
+    padding: 23px 12px;
+    border: 2px solid red;
+    margin: 23px 12px;
+    background-color: rgb(136, 223, 134);
+    box-shadow: 7px 9px 5px 3px green;
+}
+
+.card-1 {
+    padding: 23px 12px;
+    border: 2px solid red;
+    margin: 23px 12px;
+    background-color: rgb(224, 183, 183);
+    box-shadow: 7px 5px 10px grey;
+}
+
+.card-3 h2 {
+    text-shadow: 3px 4px rgb(225, 239, 161);
+}
+
+.box1 {
+    --box-color: rgb(147, 225, 28);
+    width: 200px;
+    background-color: var(--box-color);
+    border: 2px solid red;
+    box-shadow: 3px 3px var(--box-color);
+    margin: 2px 9px;
+}
+
+:root {
+    --primary-color: blue;
+    --danger-color: red;
+    --maxw: 23px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: var(--primary-color);
+    max-width: var(--maxw);
+    margin: auto;
+    display: block;
+    justify-content: center;
+}
